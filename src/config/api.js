@@ -1,6 +1,6 @@
 // API Configuration
-// Change this URL to your deployed backend URL
-const API_BASE_URL = process.env.REACT_APP_API_URL || "https://your-backend-name.onrender.com";
+// Local development configuration
+const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
 export const API_ENDPOINTS = {
   PRODUCTS: `${API_BASE_URL}/api/products`,
